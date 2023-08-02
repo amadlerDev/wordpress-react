@@ -1,0 +1,45 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+}
+header {
+    height: 75px;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    padding-inline: 25px;
+    margin-bottom: 25px;
+}
+
+
+.home {
+    width: 80%;
+    margin-inline: auto;
+}
+
+& .image {
+    width: 200px;
+    aspect-ratio: 16/9;
+}
+
+.first-section {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 100%;
+    column-gap: 4%;
+    align-items: end;
+
+    & .post {
+        width: 200px;
+    }
+}
+
+.second-section {
+    height: 800px;
+
+    & .post {
+        width: 200px;
+    }
+}
