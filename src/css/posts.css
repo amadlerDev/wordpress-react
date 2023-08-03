@@ -14,19 +14,22 @@ header {
 }
 
 .home {
-    width: 80%;
+    width: 1200px;
     margin-inline: auto;
 }
 
+a {
+    text-decoration: none;
+}
+
 & .image {
-    width: 200px;
+    width: 250px;
     aspect-ratio: 16/9;
 }
 
 .first-section {
     display: grid;
     grid-template-columns: auto auto auto auto;
-    width: 100%;
     column-gap: 4%;
     align-items: end;
 
@@ -36,9 +39,22 @@ header {
 }
 
 .second-section {
-    height: 800px;
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 20% 70%;
+    column-gap: 10%;
 
     & .post {
         width: 200px;
+    }
+
+    & .right {
+    }
+
+    & .left {
+    }
+
+    & .imgAd {
+        width: 100%;
     }
 }
