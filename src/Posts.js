@@ -1,3 +1,4 @@
+import React from 'react';
 import useFetch from './useFetch.js';
 import './css/posts.css'
     
