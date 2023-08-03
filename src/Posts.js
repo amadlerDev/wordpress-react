@@ -13,7 +13,7 @@ export default function Posts() {
                 <div className='post' item xs={4} key={index}>
                     <div className='title' dangerouslySetInnerHTML={{__html: post.title.rendered}}></div>
                         
-                    <img className='image' src={JSON.stringify(post.yoast_head_json.og_image[0].url).slice(1,-1)} />
+                    <img className='image' alt='#' src={JSON.stringify(post.yoast_head_json.og_image[0].url).slice(1,-1)} />
                 </div>
                 )) }
             </div>
@@ -23,7 +23,7 @@ export default function Posts() {
                 <div className='post' item xs={4} key={index}>
                     <div className='title' dangerouslySetInnerHTML={{__html: post.title.rendered}}></div>
                         
-                    <img className='image' src={JSON.stringify(post.yoast_head_json.og_image[0].url).slice(1,-1)} />
+                    <img className='image' alt='#' src={JSON.stringify(post.yoast_head_json.og_image[0].url).slice(1,-1)} />
                 </div>
                 )) }
             </div>
