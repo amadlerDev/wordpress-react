@@ -16,6 +16,27 @@ header {
 .home {
     width: 1200px;
     margin-inline: auto;
+
+
+    & .main-post {
+        
+        display: grid;
+        grid-template-columns: 75% auto;
+        margin-bottom: 50px;
+
+        & .image {
+            width: 850px;
+            aspect-ratio: 16/9;
+        }
+
+        & .title {
+            font-size: xx-large;
+        }
+
+        & .excerpt {
+            font-size: x-large;
+        }
+    }
 }
 
 a {
