@@ -1,12 +1,14 @@
 import React from 'react';
-import Posts from './Posts';
+import Home from './pages/Home.js';
 
 export default function App() {
     return (
         <div className="App">
-            <header className="App-header">Header</header>
+            <header>האדר</header>
 
-            <Posts />
+            <Home />
+            
+            <footer>פוטר</footer>
         </div>
     );
 }
