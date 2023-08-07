@@ -69,13 +69,16 @@ a {
         width: 200px;
     }
 
-    & .right {
-    }
-
-    & .left {
-    }
-
     & .imgAd {
         width: 100%;
     }
+}
+
+
+
+
+
+/* youtube iframe */
+.ytp-play-button {
+    background-color: blue;
 }

@@ -2,9 +2,12 @@ import React from 'react'
 import adMain from './assets/ad.jpg'
 
 export default function Ads() {
+
+
     return (
-        <div className='left'>
-            <img className='imgAd' src={adMain} alt='ad' />
+        <div class="frame-container">
+            {/* <img className='imgAd' src={adMain} alt='ad' /> */}
+            <iframe className='imgAd' height='100%' src="https://www.youtube.com/embed/BpeJY_GsdVU"></iframe>
         </div>
     );
 }
