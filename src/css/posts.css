@@ -14,13 +14,24 @@ footer {
     align-items: center;
     padding-inline: 25px;
 }
+header {
+    position: fixed;
+    top: 0;
+    height: 75px;
+    width: 100%;
+    /* padding-inline: 50px; */
+    justify-content: space-between;
+}
+header img {
+    height: 55px;
+}
 a {
     color: #000;
 }
 
 .home {
     width: 1200px;
-    margin: 25px auto 25px;
+    margin: 100px auto 25px;
 
     & .main-post {
         
