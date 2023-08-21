@@ -13,17 +13,19 @@ footer {
     display: flex;
     align-items: center;
     padding-inline: 25px;
+    justify-content: space-between;
 }
 header {
     position: fixed;
     top: 0;
     height: 75px;
     width: 100%;
-    /* padding-inline: 50px; */
-    justify-content: space-between;
+    margin: 0;
+    padding: 0;
 }
 header img {
     height: 55px;
+    padding-inline: 35px;
 }
 a {
     color: #000;

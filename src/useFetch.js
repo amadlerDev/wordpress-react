@@ -8,7 +8,6 @@ export default function useFetch(url) {
         async function loadData() {
             const response = await fetch('https://www.makorrishon.co.il/wp-json/wp/v2/' + url);
             if(!response.ok) {
-                // oups! something went wrong
                 console.log('oups! something went wrong')
                 return;
             }

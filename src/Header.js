@@ -4,12 +4,9 @@ import svg from './assets/9522043_search_icon.svg'
 
 export default function Header() {
     return (
-        <>
-            <header>
-                <img src={logo} alt="logo" />
-                {/* <div>האדר</div> */}
-                <img src={svg} alt="" />
-            </header>
-        </>
+        <header>
+            <img src={logo} alt="logo" />
+            <img src={svg} alt="search icon" />
+        </header>
     );
 } 
